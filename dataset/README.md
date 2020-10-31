@@ -45,5 +45,8 @@ The `contribute_kg` contains contribute KGs constructed from paper contribution 
 #### future_kg
 The `future_kg` contains future KGs constructed from future work for each venue. It is of the same structure as `idea_kg`.
 
+### Review-annotation
+The `Review-annotation` folder contains human annotations for review category and paper-review sentence pairs. The `review.txt` contains annotation for review category including 236 sentences for "SUMMARY", 33 sentences for "NOVELTY", 174 sentences for "SOUNDNESS_CORRECTNESS", 16 sentences for "MEANINGFUL_COMPARISON", and 14 sentences for "IMPACT". The `pair.txt`   contains 2,535 review-paper pairs. For each pair, the first slot is the review sentence; the second slot is the paper sentence, the third slot is the label where 0 indicates two sentences are not related and 1 indicates they are related.
+
 ## License
 Creative Commons — Attribution 4.0 International — CC BY 4.0

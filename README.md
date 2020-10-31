@@ -32,7 +32,7 @@ You can click the following links for detailed installation instructions.
 - [NLTK 3.5](https://www.nltk.org/)
 
 #### Data:
-[ReviewRobot dataset](https://drive.google.com/file/d/1NclEwGEVcHCrSWk8s3lDjvEbMlWXQoXM/view?usp=sharing) This dataset contains 8,110 paper and review pairs and background KG from 174,165 papers. It also contains information extraction results from [SciIE](https://bitbucket.org/luanyi/scierc/src/master/) and various knowledge graphs built on the IE results. The detailed information can be found [here](./dataset/README.md).
+[ReviewRobot dataset](https://drive.google.com/file/d/1NclEwGEVcHCrSWk8s3lDjvEbMlWXQoXM/view?usp=sharing) This dataset contains 8,110 paper and review pairs and background KG from 174,165 papers. It also contains information extraction results from [SciIE](https://bitbucket.org/luanyi/scierc/src/master/), various knowledge graphs built on the IE results, and human annotation for paper-review pairs. The detailed information can be found [here](./dataset/README.md).
 
 ## Quickstart
 
