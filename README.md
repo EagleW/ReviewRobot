@@ -27,9 +27,10 @@ You can click the following links for detailed installation instructions.
 - [NumPy 1.19](https://numpy.org/doc/stable/)
 - [SciPy 1.5.3](https://www.scipy.org/install.html)
 - [NetworkX 2.5](https://networkx.github.io/documentation/stable/install.html)
-- [Sklearn 0.24](https://scikit-learn.org/stable/install.html)
+- [Sklearn 0.23.2](https://scikit-learn.org/stable/install.html)
 - [Tqdm 4.51](https://tqdm.github.io/)
 - [NLTK 3.5](https://www.nltk.org/)
+- [matplotlib](https://matplotlib.org/)
 
 #### Data:
 [ReviewRobot dataset](https://drive.google.com/file/d/1NclEwGEVcHCrSWk8s3lDjvEbMlWXQoXM/view?usp=sharing) This dataset contains 8,110 paper and review pairs and background KG from 174,165 papers. It also contains information extraction results from [SciIE](https://bitbucket.org/luanyi/scierc/src/master/), various knowledge graphs built on the IE results, and human annotation for paper-review pairs. The detailed information can be found [here](./dataset/README.md).
