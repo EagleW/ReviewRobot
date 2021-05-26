@@ -8,6 +8,8 @@ from collections import defaultdict, Counter
 import pickle
 import matplotlib.pyplot as plt
 from copy import deepcopy
+from pathlib import Path
+
 
 
 def get_sentence(ids, sentence):
@@ -724,6 +726,7 @@ with open(acl_contrib_path, 'r') as f:
         data = json.loads(line)
         id_ = data['id']
         contrib_kbs[id_] = data
+Path("acl_2017").mkdir(parents=True, exist_ok=True)
 
 train_path = 'acl_2017/%s_train.json'
 valid_path = 'acl_2017/%s_valid.json'
