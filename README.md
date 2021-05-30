@@ -16,6 +16,8 @@ Table of Contents
   <img src="https://eaglew.github.io/images/reviewrobot.png?raw=true" alt="Photo" style="width: 100%;"/>
 </p>
 
+## Requirements
+
 #### Environment:
 
 - Python 3.6 **CAUTION!! The model might not be saved and loaded properly under Python 3.5**
