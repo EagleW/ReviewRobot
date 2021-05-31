@@ -1,6 +1,6 @@
 # ReviewRobot: Explainable Paper Review Generation based on Knowledge Synthesis
 
-[ReviewRobot: Explainable Paper Review Generation based on Knowledge Synthesis](https://arxiv.org/pdf/2010.06119.pdf) [Sample Output](https://drive.google.com/file/d/1NclEwGEVcHCrSWk8s3lDjvEbMlWXQoXM/view?usp=sharing)
+[ReviewRobot: Explainable Paper Review Generation based on Knowledge Synthesis](https://aclanthology.org/2020.inlg-1.44.pdf) [Sample Output](https://drive.google.com/file/d/1NclEwGEVcHCrSWk8s3lDjvEbMlWXQoXM/view?usp=sharing)
 
 Accepted by 13th International Conference on Natural Language Generation (INLG 2020)
 
@@ -85,11 +85,21 @@ Run `python template_prepare_generator.py` to generate the required file for the
 
 ## Citation
 ```
-@InProceedings{Wang20,
-  author={Wang, Qingyun and Zeng, Qi and Huang, Lifu and Knight, Kevin and Ji, Heng and Rajani, Nazneen Fatema},
-  title =   "ReviewRobot: Explainable Paper Review Generation based on Knowledge Synthesis",
-  booktitle =   "Proceedings of the 13th International Conference on Natural Language Generation",
-  year =  "2020"
+@inproceedings{wang-etal-2020-reviewrobot,
+    title = "{R}eview{R}obot: Explainable Paper Review Generation based on Knowledge Synthesis",
+    author = "Wang, Qingyun  and
+      Zeng, Qi  and
+      Huang, Lifu  and
+      Knight, Kevin  and
+      Ji, Heng  and
+      Rajani, Nazneen Fatema",
+    booktitle = "Proceedings of the 13th International Conference on Natural Language Generation",
+    month = dec,
+    year = "2020",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.inlg-1.44",
+    pages = "384--397"
 }
 
 ```
